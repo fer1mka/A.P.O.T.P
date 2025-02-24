@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<link rel="apple-touch-icon" sizes="180x180" href="../logo/project.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="../logo/project.ico">
+	<link rel="icon" type="image/png" sizes="16x16" href="../logo/project.ico">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+	<link rel="stylesheet" href="../styles/article1Style.css">
+	<link rel="stylesheet" href="../styles/preloader.css">
+
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+
+	<script src="../libs/gsap/gsap.min.js" defer></script>
+	<script src="../libs/gsap/ScrollTrigger.min.js" defer></script>
+	<script src="../libs/gsap/ScrollSmoother.min.js" defer></script>
+	<script src="../scripts/gsap/appArticle1.js"></script>
+	<script src="../scripts/gsap/appArticle1.js"></script>
+	<script src="../scripts/gsap/preloader.js"></script>
+
+	<title>Темы</title>
+</head>
+	
+<body>
+	<div class="loader">
+		<div class="loader-inner">
+		  <div class="loader-line-wrap">
+			<div class="loader-line"></div>
+		  </div>
+		  <div class="loader-line-wrap">
+			<div class="loader-line"></div>
+		  </div>
+		  <div class="loader-line-wrap">
+			<div class="loader-line"></div>
+		  </div>
+		  <div class="loader-line-wrap">
+			<div class="loader-line"></div>
+		  </div>
+		  <div class="loader-line-wrap">
+			<div class="loader-line"></div>
+		  </div>
+		</div>
+	  </div>
+	<div class="wrapper">
+		<div class="content">
+
+			<div class="main">
+				<div class="background-video video-bg">
+					<video src="../video/article1/fonvideo.mp4" type="video/mp4" autoplay muted loop></video>
+					<div class="effects"></div>
+					<div class="video-bg__content">
+					</div>
+				</div>
+				<div class="main-div">
+					<header class="z-index">
+						<div class="drop">
+							<nav class="mask" style="user-select: none;">
+								<h1><a href="../index.html">A.P.O.T.P.</a></h1>
+								<ul class="list">
+									<li><a href="../information/about_creators.html">О нас</a></li>
+									<li><a href="../images/informationPage/6.jpg" download>О проекте</a></li>
+									<li><a href="https://ecosphere.press/news/" target="_blank"
+											rel="noopener noreferrer">Новости</a></li>
+									<li><a href="article1.html">К темам</a></li>
+								</ul>
+
+
+								<div class="text-field__group">
+									<input class="text-field__input" type="text" id="search-input" name="search"
+										placeholder="поиск недоступен">
+									<button class="text-field__btn" type="button"
+										style="cursor: not-allowed;">Найти</button>
+									<p id="message"></p>
+								</div>
+
+
+							</nav>
+						</div>
+						<h1 class="tema">Темы</h1>
+
+
+						<div class="carousel">
+							<div class="carousel__container">
+
+
+								<div class="carousel-item">
+									<img class="carousel-item__img" src="../images/articlesPage/forestPrev.jpg"
+										alt="people" />
+									<div class="carousel-item__details">
+										<!-- <div class="controls">
+											</div> -->
+										<h5 class="carousel-item__details--subtitle"
+											style="margin-top: calc(var(--index) / 5);">Леса и бумага</h5>
+										<h6 class="carousel-item__details--subtitle"></h6>
+										<a href="#card1" class="card-button"></a>
+									</div>
+								</div>
+
+								<!-- carousel-item__details--title -->
+								<div class="carousel-item">
+									<img class="carousel-item__img" src="../images/articlesPage/whaterPrev.webp"
+										alt="people" />
+									<div class="carousel-item__details">
+										<div class="controls">
+										</div>
+										<h5 class="carousel-item__details--subtitle">Остров мусора</h5>
+										<h6 class="carousel-item__details--subtitle"></h6>
+										<a href="#card2" class="card-button"></a>
+									</div>
+								</div>
+
+
+								<div class="carousel-item">
+									<img class="carousel-item__img" src="../images/articlesPage/atmosferPrev.webp"
+										alt="people" />
+									<div class="carousel-item__details">
+										<div class="controls">
+										</div>
+										<h5 class="carousel-item__details--subtitle">Aтмосфера</h5>
+										<h6 class="carousel-item__details--subtitle"> </h6>
+										<a href="#card3" class="card-button"></a>
+									</div>
+								</div>
+
+
+								<div class="carousel-second">
+									<div class="carousel-item">
+										<img class="carousel-item__img" src="../images/articlesPage/image (1).png"
+											alt="people" />
+										<div class="carousel-item__details">
+											<div class="controls">
+												<!-- <span class="fas fa-play-circle"></span>
+												<span class="fas fa-plus-circle"></span> -->
+											</div>
+											<h5 class="carousel-item__details--subtitle" style="color: #fff;">Виды пластика</h5>
+											<h6 class="carousel-item__details--subtitle"></h6>
+											<a href="#card4" class="card-button"></a>
+										</div>
+									</div>
+
+
+									<div class="carousel-item">
+										<img class="carousel-item__img" src="../images/articlesPage/Plastick.webp"
+											alt="people" />
+										<div class="carousel-item__details">
+											<div class="controls">
+											</div>
+											<h5 class="carousel-item__details--subtitle">Пастик везде</h5>
+											<h6 class="carousel-item__details--subtitle"></h6>
+											<a href="#card5" class="card-button"></a>
+										</div>
+									</div>
+
+
+									<div class="carousel-item">
+										<img class="carousel-item__img" src="../images/articlesPage/PeoplePrev.webp"
+											alt="people" />
+										<div class="carousel-item__details">
+											<div class="controls">
+											</div>
+											<h5 class="carousel-item__details--subtitle"
+												style="color: #fff; margin-left: calc(var(--index) * 1.4)">Группа волантеров</h5>
+											<h6 class="carousel-item__details--subtitle"></h6>
+											<a href="#card6" class="card-button"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</header>
+					<section class="text-section">
+						<div class="text-selection-div" id="text-selection-div">
+							<p id="card1">&nbsp;</p>
+							<p>&nbsp;</p>
+							<h1 class="H1class">Сокращение площади лесов</h1 class="H1class">
+							<p id="card1" style="text-align: justify;">Исчезновение лесов &ndash; это мировая
+								экологическая проблема.
+								Обезлесивание планеты приводит к резким температурным перепадам, изменениям в количестве
+								выпадающих
+								осадков и скорости ветров. Сжигание лесов вызывает загрязнение воздуха окисью углерода,
+								его
+								выбрасывается больше, чем поглощается. Также при сведении лесов поступает в воздух
+								углерод,
+								скапливающийся в почве под деревьями. Что такое обезлесение? Процесс превращения лесных
+								угодий в поля,
+								пашни, карьеры, ЛЭП, города и другие объекты, где отсутствуют лесные экосистемы,
+								называется
+								обезлесением. К обезлесению приводит чрезмерная вырубка лесов, выжигание под пашню,
+								большой вред наносят
+								кислотные дожди, лесные пожары, насекомые-вредители. Каждый год площадь лесов
+								сокращается на 2&ndash;3
+								миллиона гектаров, что ведет к обезлесению.</p>
+							<p style="text-align: justify;">Основные причины сокращения лесов:</p>
+							<ul class="textclass">
+								<li style="text-align: justify;">промышленная заготовка древесины;</li>
+								<li style="text-align: justify;">сведение лесов с целью освобождения площадей для нужд
+									сельского
+									хозяйства;</li>
+								<li style="text-align: justify;">дорожное и жилищное строительство.</li>
+							</ul>
+							<p style="text-align: justify;">Последствия вырубки лесов:</p>
+							<ul class="textclass">
+								<li style="text-align: justify;">сокращение водоносности рек, высыхание озёр, понижение
+									уровня грунтовых
+									вод;</li>
+								<li style="text-align: justify;">усиление эрозии почв;</li>
+								<li style="text-align: justify;">более засушливый и континентальный климат;</li>
+								<li style="text-align: justify;">увеличение выбросов углекислого газа в атмосферу и
+									усиление парникового
+									эффекта;</li>
+								<li style="text-align: justify;">исчезновение видов живых организмов.</li>
+							</ul>
+							<p style="text-align: justify;">Массовая вырубка лесов приводит к гибели животных или
+								полному исчезновению
+								многих видов. Лесные растения используются в медицине, на основе их свойств
+								разрабатываются новые
+								препараты. Здоровый лес является важным фактором влияния на распределение воды в почве,
+								не допускает
+								заболачивания и сохраняет нужный уровень грунтовых вод, препятствуя иссушению площадей.
+								Леса, испаряя
+								влагу, создают условия для концентрации облачности и возвращения испаряемой воды в виде
+								дождя. От
+								уничтожения лесов пострадает все человечество, так как не будет природного фильтра,
+								очищающего воздух.
+							</p>
+							<p>&nbsp;</p>
+							<p>&nbsp;</p>
+							<img class="for-main-select" src="../images/articlesPage/forest.jpg"
+								alt="картинка не найдена:(" style="width: 100%;">
+							<p id="card2"></p>
+							<p>&nbsp;</p>
+							<p>&nbsp;</p>
+							<h1 class="H1class" style="text-align: center;"">Загрязнение морей и океанов</h1 class="
+								H1class">
+								<p style=" text-align: justify;">Загрязнение морей и океанов &mdash; глобальная
+									проблема, которая требует
+									безотлагательного решения. Вот некоторые причины загрязнения:</p>
+								<ul class="textclass">
+									<li style="text-align: justify;">Избыток углекислого газа, который нарушает баланс
+										химических
+										соединений
+										в океанических экосистемах и повышает кислотность вод.</li>
+									<li style="text-align: justify;">Стоки удобрений с полей, которые обогащают моря
+										питательными
+										соединениями и приводят к появлению &laquo;мертвых&raquo; зон.</li>
+									<li style="text-align: justify;">Химические отходы бытовых хозяйств и
+										промышленности, которые
+										накапливаются в телах животных и передаются по пищевой цепи.</li>
+									<li style="text-align: justify;">Добыча полезных ископаемых и разливы нефти.</li>
+									<li style="text-align: justify;">Пластиковое загрязнение, которое приводит к
+										образованию островов из
+										пластиковых отходов в Мировом океане.</li>
+								</ul>
+								<p style="text-align: justify;">Охрана морских экосистем и строгий контроль
+									антропогенной нагрузки
+									должны
+									стать приоритетными целями всего человечества. Реакция Мирового океана на
+									загрязнение или последствия
+									загрязнения. Мировой океан реагирует на загрязнение по-разному. Экологами разных
+									стран наблюдается:
+								</p>
+								<ul class="textclass">
+									<li>постепенное исчезновение различных представителей флоры и фауны;</li>
+									<li>цветение воды из-за размножения водорослей, приспособившихся к загрязнению и
+										питающихся
+										промышленными отходами;</li>
+									<li>исчезновение глобальных климатических явлений, например, течения Эль-Ниньо;</li>
+									<li>появление мусорных островов;</li>
+									<li>повышение температуры воды в Мировом океане.</li>
+								</ul>
+								<p style="text-align: justify;">Все эти реакции могут привести к сокращению выработки
+									кислорода Мировым
+									океаном, сокращению его пищевой ресурсности, привести к масштабным изменениям
+									климата на планете, к
+									повышению риска развития засух, наводнений, формирования цунами. Большинство
+									экологов воспринимают
+									загрязнение Мирового океана как глобальную экологическую проблему. У Мирового океана
+									есть и механизмы
+									самоочищения вод: химический, биологический, механический, но в результате их
+									запуска загрязняется дно
+									океана и тысячами гибнут его обитатели. Охрана Мирового океана Серьезное загрязнение
+									вод Мирового
+									океана
+									и уменьшения его ресурсности стало очевидно и понятно в последний период
+									&ldquo;холодной войны&rdquo;.
+									С
+									70-ых годов XX века работают различные региональные программы, объединяющие более
+									150 стран и
+									обеспечивающие защиту вод морей и океанов. В 1982 году на конференции ООН была
+									принята конвенция по
+									морскому праву.</p>
+								<p>&nbsp;</p>
+								<p>&nbsp;</p>
+								<img src="../images/articlesPage/whater.avif" alt="картинка не найдена:("
+									style="width: 100%;">
+								<p id="card3">&nbsp;</p>
+								<p>&nbsp;</p>
+								<h1 class="H1class" style="text-align: center;">Загрязнение атмосферы:</h1
+									class="H1class">
+								<p style="text-align: justify;">Загрязнение атмосферы &mdash; это глобальная проблема,
+									которая
+									заключается в наличии вредных веществ в атмосфере. Источниками загрязнения могут
+									быть автомобили,
+									заводы, электростанции, а также природные явления, такие как лесные пожары и
+									извержения вулканов.
+									Загрязнение воздуха наносит огромный ущерб окружающей среде и здоровью людей. Оно
+									может вызывать
+									респираторные болезни, болезни сердечно-сосудистой системы, диабет и онкологические
+									заболевания. Для
+									решения проблемы необходимы коллективные усилия. Во всём мире страны реализуют
+									политику по сокращению
+									выбросов, продвижению экологически чистой энергетики и улучшению стандартов качества
+									воздуха. Вечерами
+									и по выходным миллионы людей отправляются в парки, лес, на природу. Просто подышать
+									свежим воздухом.
+									По данным ЮНЕП (Программа ООН по окружающей среде), загрязнение воздуха &mdash; одна
+									из самых опасных
+									экологических угроз. Почему так? Во-первых, существует огромное количество
+									источников загрязнения: это
+									и обычная печка у дедушки в деревне, и любой завод, и аже ваш новенький автомобиль,
+									который ездит на
+									&laquo;экотопливе&raquo; &mdash; более чистом, но все равно загрязняющем воздух.
+									Во-вторых, эта
+									проблема неосязаема, но несет реальные риски. Как правило, сложно заметить, что
+									воздух, которым мы
+									дышим, &laquo;какой-то не такой&raquo;. Тем временем, вредные вещества, которыми он
+									насыщен, неизменно
+									попадают в организм, вызывая различные негативные процессы. И этим дело не
+									ограничивается. Основные
+									вредные вещества, которые попадают в атмосферу:</p>
+								<ul class="textclass">
+									<li style="text-align: justify;">Оксид углерода (&laquo;угарный газ&raquo;)</li>
+									<li style="text-align: justify;">Двуокись углерода (углекислый газ)</li>
+									<li style="text-align: justify;">Диоксид серы (сернистый ангидрид)</li>
+									<li style="text-align: justify;">Оксиды и диоксиды азота.</li>
+									<li style="text-align: justify;">Озон</li>
+									<li style="text-align: justify;">Углеводород</li>
+									<li style="text-align: justify;">Свинец</li>
+									<li style="text-align: justify;">Промышленная пыль.</li>
+								</ul>
+								<p style="text-align: justify;">Также существуют факторы антропогенного характера, такие
+									как испытания
+									ядерного оружия, работа теплоэлектростанций, выбросы ядовитых газов с предприятий,
+									работа котельных,
+									разложение мусора и отходов на свалках, пожары, возникающие по вине людей, выхлопные
+									газы транспортных
+									средств, полёты реактивных летательных аппаратов.</p>
+								<p>&nbsp;</p>
+								<p>&nbsp;</p>
+								<img src="../images/articlesPage/atmosfer.webp" alt="картинка не найдена:("
+									style="width: 100%;">
+								<p id="card4">&nbsp;</p>
+								<p>&nbsp;</p>
+								<h1 class="H1class" style="text-align: center;"><strong>Пластик везде:</strong></h1
+									class="H1class">
+									<p>Пластик окружает нас повсюду: в упаковке, игрушках, одежде и даже в медицине. Существует множество видов пластика, каждый из которых имеет свои уникальные свойства. Например, полиэтилен &ndash; самый распространенный вид, который мы встречаем в пакетах и бутылках. Он легкий и водонепроницаемый. Полипропилен, в свою очередь, используется для производства контейнеров и текстиля благодаря своей прочности и устойчивости к химическим веществам.</p>
+									<p>А вот полистирол часто встречается в одноразовой посуде и упаковке для еды. Интересно, что некоторые виды пластика можно перерабатывать несколько раз, что помогает уменьшить количество отходов. Однако не все пластики поддаются переработке, и это создает серьезные экологические проблемы. Зная о различных видах пластика, мы можем делать более осознанный выбор в повседневной жизни!</p>
+									<p>Термоупорный пластик &mdash; это удивительный материал, который находит применение в самых разных сферах нашей жизни. В отличие от обычных пластиков, термоупорные виды способны выдерживать высокие температуры без изменения своих свойств. Это делает их незаменимыми в таких отраслях, как автомобилестроение, электроника и даже космическая индустрия.</p>
+									<p>Среди популярных видов термоупорного пластика можно выделить полиамиды, которые известны своей прочностью и стойкостью к химическим воздействиям. Они часто используются в производстве деталей для автомобилей и бытовой техники. Поликарбонаты &mdash; еще один интересный представитель, обладающий высокой прозрачностью и ударопрочностью. Их применяют для создания защитных экранов и оптики.</p>
+									<p>Не стоит забывать и о фенолформальдегидных смолах, которые находят свое применение в производстве мебели и строительных материалов. Эти пластики не только устойчивы к высоким температурам, но и обладают отличной износостойкостью.</p>
+									<p style="text-align: left;">Таким образом, термоупорные пластики играют важную роль в современном мире, обеспечивая безопасность и долговечность многих изделий. Их уникальные свойства открывают новые горизонты для технологий будущего!</p>
+								<p>&nbsp;</p>
+								<p>&nbsp;</p>
+								<img src="../images/articlesPage/acsidRain.jpg" alt="картинка не найдена:("
+									style="width: 100%;">
+								<p id="card5">&nbsp;</p>
+								<p>&nbsp;</p>
+								<h2>Разрушение озонового слоя как глобальная экологическая проблема:</h2>
+								<p>Разрушение озонового слоя &mdash; это глобальная экологическая проблема,
+									которая требует немедленных действий. Озоновый слой &mdash; это вещественный слой в
+									высших частях
+									атмосферы, который играет важную роль в защите Земли от вредных ультрафиолетовых
+									лучей. Однако в
+									результате деятельности человека, в частности, выбросов вредных веществ в атмосферу,
+									этот слой
+									утрачивает свою прочность и эффективность. Последствия разрушения озонового слоя
+									могут быть
+									катастрофическими для животных и растительности на Земле, а также для здоровья
+									человека. Увеличение
+									количества ультрафиолетовых лучей, проникающих в атмосферу, может привести к
+									увеличению риска рака
+									кожи,
+									повреждению глаз и нарушению иммунной системы человека. Для предотвращения
+									разрушения озонового слоя
+									необходимо принимать меры на различных уровнях: от индивидуальных до
+									государственных.</p>
+								<p>Исчезновение озонового слоя может привести к очень серьезным последствиям
+									и необратимым процессам в природе.</p>
+								<p>1) В морской среде первым погибнет планктон, что в дальнейшем приведет к
+									уменьшению количества рыб и млекопитающих.<br />2) Для растительности это пагубно
+									разрушением листвы и
+									высыханием.<br />3) Для животного мира &ndash; появлением разного рода
+									мутаций.<br />4) Для людей
+									&ndash; чревато проблемами со здоровьем, такими как увеличение раковых заболеваний
+									кожи, повреждения
+									ДНК, появление массовых расстройств психики из-за нарушения частоты
+									электромагнитного поля Земли,
+									которое также может произойти по причине сокращения озонового слоя.<br />5) Кроме
+									того, снижение
+									плотности слоя озона может повлечь за собой существенные изменения климата, падение
+									урожайности и
+									животноводства.</p>
+								<p>&nbsp;</p>
+								<p>&nbsp;</p>
+								<img src="../images/articlesPage/atmosfer.webp" alt="картинка не найдена:("
+									style="width: 100%;">
+								<p id="card6">&nbsp;</p>
+								<p>&nbsp;</p>
+								<h1 class="H1class" style="text-align: center;">Группа волантеров:</h1 class="H1class">
+									<p style="text-align: center;">Дорогие друзья!</p>
+									<p><br />Приглашаем всех желающих стать волонтерами Клуба "Волонтеры Подмосковья".<br />"Волонтер" - в переводе с французского означает доброволец.<br />Волонтеры - это люди с активной жизненной позицией, которые стремятся приложить свои силы и знания для того, чтобы сделать окружающий мир лучше.</p>
+									<p>Какими качествами нужно обладать:</p>
+									<ul style="list-style-type: disc;">
+									<li>трудолюбием и милосердием</li>
+									<li>бескорыстностью</li>
+									</ul>
+									<p>Взамен волонтер получает не только благодарность и признательность за свой труд, но и:</p>
+									<ul style="list-style-type: disc;">
+									<li>новые знания и опыт;</li>
+									<li>новых друзей;</li>
+									</ul>
+									<p>Что нужно сделать, что бы попасть в группу волонтеров?</p>
+									<ol>
+									<li>Нажать на эту <a style="color: aquamarine;" href="https://dobro.ru/organizations/10039248/info">ссылку</a></li>
+									<li>Зарегистрироваться на сайте "Волонтеры Подмосковья"</li>
+									<li>Выбрать, в какой сфере вы будете полезны</li>
+									<li>Вот и все, регистрация окончена, пора помогать окружающему миру!</li>
+									</ol>
+								<p>&nbsp;</p>
+								<p>&nbsp;</p>
+								<img src="../images/articlesPage/People.jpg" alt="картинка не найдена:("
+									style="width: 100%;">
+						</div>
+					</section>
+					<div class="background"></div>
+					<div class="background-texture"></div>
+				</div>
+			</div>
+			<div class="foot-panel">
+				<hr class="hr-double" style="margin-bottom: 1em;">
+				<a class="socialMediaVK" href="https://vk.com/rybalko_egor" target="_blank" rel="noopener noreferrer">
+					<i class='fa fa-vk' style='font-size:36px'></i>
+				</a>
+				<a class="socialMediaTG" href="https://t.me/kukseside" target="_blank" rel="noopener noreferrer">
+					<i class='fa fa-telegram' style='font-size:30px'></i>
+				</a>
+			</div>
+			<!-- кнопка вверх -->
+			<style>
+				body {
+					min-height: 2000px;
+				}
+
+				.btn-up {
+					position: fixed;
+					/* background: -webkit-linear-gradient(90deg, #9f2ef4,#f97d64,#ffcd42);
+				  background: linear-gradient(90deg, #9f2ef4,#f97d64,#ffcd42); */
+					/* background: linear-gradient(to left, blue, pink); */
+					right: 20px;
+					bottom: 20px;
+					border-radius: 22px;
+					cursor: pointer;
+					width: 60px;
+					height: 60px;
+					background-color: rgba(16, 226, 121, 0.849);
+					transition: background-color 1s;
+				}
+
+				.btn-up:hover {
+					background-color: transparent;
+					background-color: rgba(1, 243, 211, 0.8);
+				}
+
+				.btn-up::before {
+					content: "";
+					text-align: center;
+					position: absolute;
+					width: 20px;
+					height: 20px;
+					left: 20px;
+					top: 20px;
+					background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cg fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 17V4M3 10l7-7 7 7'/%3E%3C/g%3E%3C/svg%3E");
+				}
+
+				.btn-up_hide {
+					display: none;
+				}
+
+				/* .btn-up:hover {
+					background-position: 40%;
+					} */
+				/* @media (hover: hover) and (pointer: fine) {
+					.btn-up:hover {
+						background-position: right;
+					}
+				} */
+			</style>
+			</head>
+
+			<body>
+
+				<div class="btn-up btn-up_hide"></div>
+
+				<script>
+					const btnUp = {
+						el: document.querySelector('.btn-up'),
+						show() {
+							// удалим у кнопки класс btn-up_hide
+							this.el.classList.remove('btn-up_hide');
+						},
+						hide() {
+							// добавим к кнопке класс btn-up_hide
+							this.el.classList.add('btn-up_hide');
+						},
+						addEventListener() {
+							// при прокрутке содержимого страницы
+							window.addEventListener('scroll', () => {
+								// определяем величину прокрутки
+								const scrollY = window.scrollY || document.documentElement.scrollTop;
+								// если страница прокручена больше чем на 400px, то делаем кнопку видимой, иначе скрываем
+								scrollY > 400 ? this.show() : this.hide();
+							});
+							// при нажатии на кнопку .btn-up
+							document.querySelector('.btn-up').onclick = () => {
+								// переместим в начало страницы
+								window.scrollTo({
+									top: 0,
+									left: 0,
+									behavior: 'smooth'
+								});
+							}
+						}
+					}
+					btnUp.addEventListener();
+				</script>
+			</body>
+
+</html>
