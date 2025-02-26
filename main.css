@@ -111,17 +111,23 @@ body {
 	transform: var(--main-article-transform);
 	transition: var(--transition);
 	will-change: transform;
+	text-align: center;
 }
 .main-article__paragraph {
 	max-width: calc(var(--index) * 30);
-	font-size: calc(var(--index) * .9);
+	font-size: calc(var(--index) * 1);
 	margin-top: calc(var(--index) / 1.25);
 	transform: var(--main-article-transform);
 	transition: var(--transition);
 	will-change: transform;
+	text-align: center;
 }
 .content {
 	will-change: transform;
+}
+.main-article__content{
+	padding-top: calc(var(--index) * 7);
+	padding-left: calc(var(--index) * 2);
 }
 .copy {
 	position: absolute;
